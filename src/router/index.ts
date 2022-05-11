@@ -34,6 +34,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "exitpage" */ '../views/ExitPage.vue'),
     meta:{transitionName:'ts-exitpage'}
   },
+  {
+    path: '/basalam',
+    name: 'basalam',
+    component: () => import(/* webpackChunkName: "exitpage" */ '../views/BaSalam.vue'),
+    meta:{transitionName:'ts-baslam'}
+  },
 ]
 
 const router = createRouter({

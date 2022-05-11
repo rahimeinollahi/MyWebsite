@@ -25,6 +25,10 @@
        </li>
 
        <li class="nav-item">
+          <router-link class="nav-link text-white" to="/basalam">شبیه سازی باسلام</router-link>
+       </li>
+
+       <li class="nav-item">
           <router-link class="nav-link text-white" to="/exitpage">خر,ج</router-link>
        </li>
 
