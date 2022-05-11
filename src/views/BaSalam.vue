@@ -6,9 +6,11 @@
             <div class="col-sm-3">
                 <right-side />
             </div>
-            <div class="col-sm-4">4</div>
+            <div class="col-sm-6">
+                <main-body />
+            </div>
             
-            <div class="col-sm-3"></div>
+            <div class="col-sm-1"></div>
 
             <div class="col-sm-1"></div>
         </div>
@@ -17,8 +19,9 @@
 
 <script>
 import RightSide from '@/components/ba-salam/RightSide.vue'
+import MainBody from '@/components/ba-salam/MainBody.vue'
     export default {
-  components: { RightSide },
+  components: { RightSide, MainBody },
         
     }
 </script>
