@@ -28,6 +28,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "aboutme" */ '../views/MySkill.vue'),
     meta:{transitionName:'ts-myskill'}
   },
+  {
+    path: '/exitpage',
+    name: 'ExitPage',
+    component: () => import(/* webpackChunkName: "exitpage" */ '../views/ExitPage.vue'),
+    meta:{transitionName:'ts-exitpage'}
+  },
 ]
 
 const router = createRouter({

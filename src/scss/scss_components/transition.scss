@@ -34,4 +34,16 @@
   transform: translateY(-50px);
   background-color: #E9D5DA;
 }
+//exitpage
+.ts-exitpage-enter-active,
+.ts-exitpage-leave-active {
+  transition: all 0.8s ease;
+}
+
+.ts-exitpage-enter-from,
+.ts-exitpage-leave-to {
+  opacity: 0;
+  transform: skew(20deg);
+  background-color: #E9D5DA;
+}
 
