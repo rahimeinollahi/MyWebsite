@@ -21,7 +21,7 @@
        </li>
        
        <li class="nav-item">
-          <outer-link class="nav-link text-white" to="/myskills">مهارت ها</outer-link>
+          <router-link class="nav-link text-white" to="/myskills">مهارت ها</router-link>
        </li>
 
        <li class="nav-item">
