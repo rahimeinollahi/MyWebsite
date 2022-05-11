@@ -22,6 +22,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "aboutme" */ '../views/AboutMe.vue'),
     meta:{transitionName:'ts-aboutme'}
   },
+  {
+    path: '/myskill',
+    name: 'MySkill',
+    component: () => import(/* webpackChunkName: "aboutme" */ '../views/MySkill.vue'),
+    meta:{transitionName:'ts-myskill'}
+  },
 ]
 
 const router = createRouter({

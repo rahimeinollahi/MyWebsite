@@ -12,7 +12,7 @@
 
 
 .ts-aboutme-enter-active,
-.ts-fade-leave-active {
+.ts-aboutme-leave-active {
   transition: all 0.8s ease;
 }
 
@@ -20,6 +20,18 @@
 .ts-aboutme-leave-to {
   opacity: 0;
   transform: scale(2);
+  background-color: #E9D5DA;
+}
+//myskills
+.ts-myskill-enter-active,
+.ts-myskill-leave-active {
+  transition: all 0.8s ease;
+}
+
+.ts-myskill-enter-from,
+.ts-myskill-leave-to {
+  opacity: 0;
+  transform: translateY(-50px);
   background-color: #E9D5DA;
 }
 
