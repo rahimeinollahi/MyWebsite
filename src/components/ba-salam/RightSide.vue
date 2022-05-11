@@ -53,7 +53,7 @@ import HeaderRight from './HeaderRight.vue'
             return{
                 part2Items:[
                     {id:1, itmName:'تنظیمات غرفه', itemRoute:'/setting-shop'},
-                    {id:1, itmName:'روش و هزینه های ارسال', itemRoute:'/cost-trasport'},
+                    {id:1, itmName:'روش و هزینه های ارسال', itemRoute:'/costpost'},
                     {id:1, itmName:'تسویه حساب و امور مالی', itemRoute:'/finance'},
                     {id:1, itmName:'غرفه برتر', itemRoute:'/prime-shop'},
                 ],

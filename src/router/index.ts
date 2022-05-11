@@ -38,8 +38,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/basalam',
     name: 'basalam',
     component: () => import(/* webpackChunkName: "exitpage" */ '../views/BaSalam.vue'),
-    meta:{transitionName:'ts-baslam'}
+    meta:{transitionName:'ts-basalam'},
+    
   },
+  {
+    path: '/costpost',
+    name: 'CostPost',
+    component: () => import(/* webpackChunkName: "costpost" */ '../views/BaSalam/CostPost.vue'),
+    meta:{transitionName:'ts-costpost'}
+  },
+  
 ]
 
 const router = createRouter({

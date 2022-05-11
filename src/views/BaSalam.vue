@@ -7,7 +7,9 @@
                 <right-side />
             </div>
             <div class="col-sm-6">
+                <router-view />
                 <main-body />
+            
             </div>
             
             <div class="col-sm-1"></div>
