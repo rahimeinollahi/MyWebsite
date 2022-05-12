@@ -14,13 +14,17 @@
         <span> یک فرانت اند دوولوپر</span>
       </div>
       <hr>
+      <br>
+      <bizilo />
       
       
   </div>
 </template>
 
 <script>
+import bizilo from '@/components/home_page/bizilo.vue'
   export default {
+  components: { bizilo },
     
   }
 </script>

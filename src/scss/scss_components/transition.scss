@@ -46,4 +46,28 @@
   transform: skew(20deg);
   background-color: #E9D5DA;
 }
+//baslam
+.ts-basalam-enter-active,
+.ts-basalam-leave-active {
+  transition: all 0.8s ease;
+}
+
+.ts-basalam-enter-from,
+.ts-basalam-leave-to {
+  opacity: 0;
+  transform: scale2(20deg);
+  background-color: #E9D5DA;
+}
+//cost-post
+.ts-costpost-enter-active,
+.ts-costpost-leave-active {
+  transition: all 0.8s ease;
+}
+
+.ts-costpost-enter-from,
+.ts-costpost-leave-to {
+  opacity: 0;
+  transform: scale2(20deg);
+  background-color: #E9D5DA;
+}
 

@@ -47,6 +47,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "costpost" */ '../views/BaSalam/CostPost.vue'),
     meta:{transitionName:'ts-costpost'}
   },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: () => import(/* webpackChunkName: "chat" */ '../views/BaSalam/Chat.vue'),
+    meta:{transitionName:'ts-chat'}
+  },
   
 ]
 

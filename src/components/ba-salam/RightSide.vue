@@ -8,7 +8,7 @@
                             <a class="nav-link " href="#">پیشخوان</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> گفتگو</a>
+                            <router-link class="nav-link" to="/chat"> گفتگو</router-link>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"> محصولات</a>
